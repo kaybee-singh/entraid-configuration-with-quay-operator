@@ -2,13 +2,11 @@
 
 ![App Registration](images/application-registration.png)
 
-2. Now go to Microsoft Entra ID >> App Registraion >> All Applications >> azure >> click on "Redirect URIs" >> Add Url to add new URL and add 2 new URLs as listed below.
+2. Now go to Microsoft Entra ID >> App Registraion >> All Applications >> azure >> click on "Redirect URIs" >> Add Url to add new URL and add 2 new URLs as listed below. Once saved, Note down the **Application (client) ID**, we have to use it later in **config.yaml** with  **CLIENT_ID** parameter.
 
 ![Add 2 more Callback URLs](images/added-2-urls.png)
 
-3. Note down the **Application (client) ID**
-
-4. Click on `Cient Credentials` to create a new secret. On `Certificates & secrets` window click on `New client secret`. Add a name and expiry date. Once secret is created, note down the `Secret ID` and it's **Value**
+4. Click on `Cient Credentials` to create a new secret. On `Certificates & secrets` window click on `New client secret`. Add a name and expiry date. Once secret is created, note down the it's **Value**. We have to use it later in config.yaml with **CLIENT_SECRET** parameter.  
 
 ![New client secret](images/add-client-secret.png)
 
